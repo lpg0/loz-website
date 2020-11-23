@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132567955-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-132567955-1');
+    </script>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Contact Us | Loz Analytics</title>
+  <meta name="description" content="Loz Analytics">
+  <meta name="author" content="Nate Giraudeau">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/nnb7tcw.css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+	<link rel="stylesheet" href="../css/top_navbar.css">
+	<link rel="stylesheet" href="../css/main_styles.css">
+
+	<script type="text/javascript" src="../js/nav_dropdown.js"></script>
+  <script type="text/javascript" src="../js/ripples.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../images/favicon2.png">
+
+</head>
+
+<style media="screen">
+  .contactp {
+    font-size: 1.4em;
+  }
+  @media screen and (max-width: 530px) {
+    .contactp {
+      font-size: 1.2em;
+    }
+  }
+  @media screen and (max-width: 335px) {
+    .contactp {
+      font-size: 1em;
+    }
+  }
+</style>
+
+<body style="background-image: url('../images/triangle 3-01.png'); background-position: left top; background-size: 100% auto; background-repeat: no-repeat;">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../js/scripts.js"></script>
+  <script>//document.body.className += 'fade-out';</script>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="navbar" id="navmenu" style="z-index: 10; background-color: white;">
+		<!-- LOZ logo in top left corner -->
+    <a href="../index.html">
+      <div class="navimgcon">
+        <img class="navbar-image big" src="../images/loz big-01.png">
+
+<img class="navbar-image small" src="../images/loz laptop-01.png">
+<img class="navbar-image mobile" src="../images/loz mobile.png">
+      </div>
+		</a>
+
+		<div onClick="changeToX(this)" id="mainhmbrgr">
+			<div class="icon button" id="hambrgr" onClick="openNav()">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+		</div>
+
+		<!-- navigation menu links-->
+	  <div class="nav-links">
+		  <a class="button navlink ripple" href="projects.html" id="projects">Projects</a>
+		  <a class="button navlink ripple" href="dataSci.html" id="science">Data Science</a>
+		  <a class="button navlink ripple" href="writing.html" id="writing">Writing</a>
+		  <a class="button navlink ripple" href="../index.html#p1" id="about">About</a>
+		  <a class="button navlink blue ripple" href="contact.html" id="contact">Contact Us</a>
+	  </div>
+
+</div>
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 3%; padding: 2%; padding-top: 60px;" align = "left">
+        <h2 class="resize-h2" style="-webkit-animation-name: slideup; -webkit-animation-duration: 0.5s; animation-name: slideup; animation-duration: 0.5s; animation-timing-function: ease;">Contact Loz Analytics</h2>
+        <p class="contactp" style="
+        	margin: auto;
+        	-webkit-animation-name: slideup;
+        	-webkit-animation-duration: 0.8s;
+        	animation-name: slideup;
+        	animation-duration: 0.8s;
+        	animation-timing-function: ease;"
+          >We're always on the lookout for unique and challenging projects and normally limit
+        our workload to one or two comprehensive projects at any given time, typically in the realm of data engineering,
+        process optimization or automation, but we'd love to hear your ideas and perhaps build
+        some amazing things. We greatly appreciate your time in messaging us, and we will get back to
+        you shortly.</p>
+      </div>
+    </div>
+  </div>
+
+	<hr class="divider" style="margin-left: 2%; margin: 2%; animation-name: slideup;">
+
+  <div class="container" style="
+    -webkit-animation-name: slideup;
+    -webkit-animation-duration: 1.2s;
+    animation-name: slideup;
+    animation-duration: 1.2s;
+    animation-timing-function: ease;">
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 3%; padding: 2%; padding-top: 0;" align = "left">
+          <form method="post" action="https://forms.un-static.com/forms/5b448c8925db2b69e9c8ad700a91343cae586535">
+            <div class="row">
+              <div class="six columns">
+                <label for="Sent From">Your email</label>
+                <input class="u-full-width" type="email" placeholder="YourEmail.com" name="Sent From" id="Sent From">
+              </div>
+              <div class="six columns">
+                <label for="Reason For Contacting">Reason for contacting</label>
+                <select class="u-full-width" name="Reason For Contacting" id="Reason For Contacting">
+                  <option value="Ideas">Ideas</option>
+                  <option value="Questions">Questions</option>
+                  <option value="Work With Us">Work With Us</option>
+                </select>
+              </div>
+            </div>
+            <label for="Message">Message</label>
+            <textarea class="u-full-width" placeholder="Hi Loz!" name="Message" id="Message"></textarea>
+            <div class="">
+              <input style="text-transform: none;" class="button button-primary ghost" type="reset" value="Reset">
+            </div>
+            <div class="">
+              <input style="text-transform: none;" class="button button-primary" type="submit" value="Submit">
+            </div>
+          </form>
+
+  <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+
+  <!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
+      </div>
+    </div>
+  </div>
+
+<div class="" style="height: 70vh; background-image: url('../images/triangle 4-01.png'); background-position: right bottom; background-size: 100% auto; background-repeat: no-repeat;">
+
+</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

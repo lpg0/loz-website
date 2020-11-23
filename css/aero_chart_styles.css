@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+p, h5, h6, h4 {font-weight: normal;}
+
+.aerochart-image1000 {width: 1000px;}
+.aerochart-image800 {width: 800px;}
+.aerochart-image798 {width: 798px;}
+.aerochart-image779 {width: 779px;}
+.aerochart-image595 {width: 595px;}
+
+@media screen and (max-width: 1000px) {
+	.aerochart-image1000 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.aerochart-image800 {
+		width: 100%;
+	}
+	.aerochart-image798 {
+		width: 100%;
+	}
+	.aerochart-image779 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.aerochart-image595 {
+		width: 100%;
+	}
+}

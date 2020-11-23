@@ -1,0 +1,23 @@
+
+.scroll-img {
+	opacity: 0;
+	background-color: transparent;
+}
+
+.scroll-img.flipped {
+	opacity: 1;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+	animation-name: flip;
+	animation-duration: 0.4s;
+}
+
+/*@-webkit-keyframes flip{
+	from {transform: rotateX(90deg);}
+	to {transform: rotateX(0deg);}
+}
+
+@keyframes flip {
+	from {transform: rotateX(90deg);}
+	to {transform: rotateX(0deg);}
+}*/

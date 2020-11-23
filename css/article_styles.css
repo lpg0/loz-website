@@ -1,0 +1,154 @@
+
+a {
+  color: #1EAEDB !important;
+  font-weight: 500 !important;
+  text-decoration: underline !important;
+}
+a:hover {
+  color: #0FA0CE !important;
+  font-weight: 500 !important;]
+}
+
+body {
+	transform-origin: left;
+	background-image: url('../images/triangle 4-01.png');
+	background-position: right bottom; background-size: 100% auto;
+	background-repeat: no-repeat;
+	padding-bottom: 120px;
+	background-color: white;
+	min-height: 100vh;
+}
+
+h1.title {
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    line-height: 26.4px;
+}
+
+h1 {
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 26.4px;
+}
+
+h2 {
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 1px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 15.4px;
+}
+
+h4.author {
+    font-family: Raleway ;
+    font-size: 18px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+table {
+    font-family: Raleway;
+}
+
+thead {
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 15.4px;
+}
+
+p {
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.title.toc-ignore {
+  max-width: 70%;
+}
+
+@media screen and (min-width: 800px) {
+  p {
+    text-align: justify;
+    justify-content: inter-word;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .home-link {
+    width: 50vw;
+    margin-right: 42vw;
+    margin-bottom: 5%;
+  }
+}
+
+.home-link {
+  -webkit-animation-name: homeLink;
+	-webkit-animation-duration: 300ms;
+	animation-name: homeLink;
+	animation-duration: 300ms;
+	animation-timing-function: cubic-bezier(0, 0.6, 0.3, 1);
+	-webkit-animation-timing-function: cubic-bezier(0, 0.6, 0.3, 1);
+	-o-animation-timing-function: cubic-bezier(0, 0.6, 0.3, 1);
+}
+
+@-webkit-keyframes homeLink {
+	from {transform: translateY(-70px); opacity: 0;}
+	to {transform: translateY(0px); opacity: 1;}
+}
+
+@keyframes homeLink {
+	from {transform: translateY(-70px); opacity: 0;}
+	to {transform: translateY(0px); opacity: 1;}
+}
+
+.table {
+  max-width: 70vw !important;
+  overflow-x: scroll;
+}
+
+code.r{
+    font-size: 12px;
+    font-family: Raleway;
+}
+
+blockquote {
+    font-family: Raleway;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+pre {
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}

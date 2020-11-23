@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132567955-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-132567955-1');
+    </script>
+
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Data Science | Loz Analytics</title>
+  <meta name="description" content="Loz Analytics">
+  <meta name="author" content="Nate Giraudeau">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/nnb7tcw.css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+	<link rel="stylesheet" href="../css/top_navbar.css">
+	<link rel="stylesheet" href="../css/main_styles.css">
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<script type="text/javascript" src="../js/nav_dropdown.js"></script>
+	<script type="text/javascript" src="../js/fixed_sidebar.js"></script>
+  <script type="text/javascript" src="../js/ripples.js"></script>
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../images/favicon2.png">
+
+</head>
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../js/scripts.js"></script>
+  <script>//document.body.className += 'fade-out';</script>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="navbar" id="navmenu" style="z-index: 10;">
+  		<!-- LOZ logo in top left corner -->
+      <a href="../index.html">
+        <div class="navimgcon">
+          <img class="navbar-image big" src="../images/loz big-01.png">
+
+  <img class="navbar-image small" src="../images/loz laptop-01.png">
+  <img class="navbar-image mobile" src="../images/loz mobile.png">
+        </div>
+  		</a>
+
+  		<div onClick="changeToX(this)" id="mainhmbrgr">
+  			<div class="icon button" id="hambrgr" onClick="openNav()">
+  				<div class="bar1"></div>
+  				<div class="bar2"></div>
+  				<div class="bar3"></div>
+  			</div>
+  		</div>
+
+  		<!-- navigation menu links-->
+  	  <div class="nav-links">
+  		  <a class="button navlink ripple" href="projects.html" id="projects">Projects</a>
+  		  <a class="button navlink ripple current" href="dataSci.html" id="science">Data Science</a>
+  		  <a class="button navlink ripple" href="writing.html" id="writing">Writing</a>
+  		  <a class="button navlink ripple" href="../index.html#p1" id="about">About</a>
+  		  <a class="button navlink blue ripple" href="contact.html" id="contact">Contact Us</a>
+  	  </div>
+
+</div>
+
+	<div class="main-header" id="top-main">
+		<div class="main-heading-container">
+			<h1 class="resize-h1">Data Science</h1>
+		</div>
+	</div>
+
+	<div class="fixed-sidenav" align="right" id="fixed-nav">
+		<a href="#top-main"><div class="side-link head ripple ripple-light">Data Science</div></a>
+		<a href="#dcb"><div class="side-link ripple">Data Cleaning & Blending <i class="material-icons">expand_more</i></div></a>
+		<a href="#exp"><div class="side-link ripple">Data Exploration <i class="material-icons">expand_more</i></div></a>
+		<a href="#expl"><div class="side-link ripple">Data Explanation and Storytelling <i class="material-icons">expand_more</i></div></a>
+		<a href="#vis"><div class="side-link ripple">Data Visualization <i class="material-icons">expand_more</i></div></a>
+		<a href="#tsm"><div class="side-link ripple">Time Series Modeling <i class="material-icons">expand_more</i></div></a>
+		<a href="#ccm"><div class="side-link ripple">Clustering and Classification Modeling <i class="material-icons">expand_more</i></div></a>
+		<!--<a href="#comsci"><div class="side-link head">Computer Science</div></a>
+		<a><div class="side-link last">Computer Science Projects</div></a>-->
+	</div>
+
+	<div class="center-main-text-container">
+		<div class="center-main-text">
+			<p id="reference1">We break data down into fundamental pieces, spend quite a bit of time
+          understanding these base components, and then rebuild the analysis
+          structures using the best tools and techniques available. 'Data
+          Science' is an incredibly broad subject, but after several years
+          working in data consulting, we've found that the largest hindrance to
+          effective analytics is failing to discard the non-essential and letting
+          complexity overwhelm the end goal.<br><br>Our philosophy in Data Science follows the advice that Einstein gave -
+          *Everything should be made as simple as possible, but no simpler.*
+          By reducing the data and focusing on what is most important, it is much
+          easier to assess accuracy, build effective calculations, and visualize it in
+          a way that the decision makers can understand and take action.</p>
+		</div>
+	</div>
+	<span id="dcb"></span>
+
+	<hr class="divider">
+
+	<div class="sub-header">
+		<h2 class="resize-h2">
+			Data Cleaning and Blending
+		</h2>
+	</div>
+
+	<div class="center-sub-text-container">
+		<div class="center-sub-text">
+			<p>We've included a few different articles on the data cleansing and blending process.
+        This is perhaps one of the most underappreciated, yet important parts of any project. Data
+        often comes from many different places, in many different formats, at different levels of
+        granularity. This is the point that we find out what information we have, determine what
+        information we're missing, clean it, standardize it make sure all the information
+        is accurate and reliable.</p>
+		</div>
+	</div>
+
+	<div class="centered-button" align="left" id="exp">
+		<a class="button button-primary ripple comingsoon" style="cursor: default;">Coming soon</a>
+	</div>
+
+	<hr class="divider">
+
+	<div class="sub-header">
+		<h2 class="resize-h2">
+			Data Exploration
+		</h2>
+	</div>
+
+	<div class="center-sub-text-container">
+		<div class="center-sub-text">
+			<p>Data exploration is the process of taking the information and trying
+            to find insights. It's a continuous process delving into relationships,
+            assessing accuracy and figuring out where powerful insights are. We'll
+            take you through the process with some interesting projects, and give
+            you the tools you need to get the foundations of your project ready.</p>
+		</div>
+	</div>
+
+	<div class="centered-button" align="left" id="expl">
+		<a class="button button-primary ripple comingsoon" style="cursor: default;">Coming soon</a>
+	</div>
+
+	<hr class="divider">
+
+
+
+
+	<div class="sub-header">
+		<h2 class="resize-h2">
+			Data Explanation and Storytelling
+		</h2>
+	</div>
+
+	<div class="center-sub-text-container">
+		<div class="center-sub-text">
+			<p>This is where the presentation of results come in. While Data exploration
+        is just for you, data explanation is for your audience. What did you find?
+        What are the results? What action can you take based on the data? These questions,
+        among others, are an essential part communicating and conveying important
+        information in a way that your audience understands, and knows what to
+        do with it.</p>
+		</div>
+	</div>
+
+	<div class="centered-button" align="left" id="vis">
+		<a class="button button-primary ripple comingsoon" style="cursor: default;">Coming soon</a>
+	</div>
+
+	<hr class="divider">
+
+
+
+	<div class="sub-header">
+		<h2 class="resize-h2">
+			Data Visualization
+		</h2>
+	</div>
+
+	<div class="center-sub-text-container">
+		<div class="center-sub-text">
+			<p>Data visualization is an art form and discipline of its own. It's essential
+        to both the data exploration and data explanation process, and can provide
+        powerful insights that wouldn't be possible by simply reading a data table.
+        You can't do data science without the visualization piece, and we prefer
+        bottom-up tools that give you unlimited options in how you present data.
+        We focus on data visualization using R, Python and Tableau, and have papers
+        and projects discussing the process.</p>
+		</div>
+	</div>
+
+	<div class="centered-button" align="left" id="tsm">
+		<a class="button button-primary ripple comingsoon" style="cursor: default;">Coming soon</a>
+	</div>
+
+	<hr class="divider">
+
+
+
+
+	<div class="sub-header">
+		<h2 class="resize-h2">
+			Time Series Modeling
+		</h2>
+	</div>
+
+	<div class="center-sub-text-container">
+		<div class="center-sub-text">
+			<p>Time Series modeling is an integral part of analyzing data that changes
+        over a fixed-period of time. There's more complexity in this discipline
+        than is immediately apparent, and we hope to showcase the rich analysis
+        and sophisticated insights that you can glean from time series data.</p>
+		</div>
+	</div>
+
+	<div class="centered-button" align="left" id="ccm">
+		<a class="button button-primary ripple comingsoon" style="cursor: default;">Coming soon</a>
+	</div>
+
+	<hr class="divider">
+
+
+
+
+	<div class="sub-header">
+		<h2 class="resize-h2">
+			Clustering and Classification Modeling
+		</h2>
+	</div>
+
+	<div class="center-sub-text-container">
+		<div class="center-sub-text">
+			<p>Clustering and classification modeling is the process of finding similarities
+        and relationships between different datapoints that are not evident. These
+        techniques have a strong mathematical component, and are the foundation of
+        machine learning and artificial intelligence.</p>
+		</div>
+	</div>
+
+	<div class="centered-button" align="left">
+		<a class="button button-primary ripple comingsoon" style="cursor: default;">Coming soon</a>
+	</div>
+
+
+
+
+	<hr class="divider" style="border-color: transparent">
+	<hr class="divider" style="border-color: transparent">
+
+
+
+
+	<!--<div class="main-header">
+		<div class="main-heading-container">
+			<h1 class="resize-h1">Computer Science</h1>
+		</div>
+	</div>
+
+	<div class="center-main-text-container">
+		<div class="center-main-text">
+			<p>We're passionate about studying and applying the fundamentals of
+            computer science to our projects. We have a background in programming and
+            computer science, and we've found that exploring the techniques
+            in this discipline does more than just give us some knowledge on how to do
+            certain things - it changes the way we think about problem-solving.<br><br>Computing is a process where you have to think logically - you can't simply
+            expect a computer to understand what you are trying to communicate, and
+            it is essential to plan the process and truly understand and define what it is
+            you're trying to achieve. We enjoy the fact that computer science takes logical thinking,
+            problem solving and adaptability to the extreme.</p>
+		</div>
+	</div>
+
+
+	<div class="sub-header">
+		<h2 class="resize-h2">
+			Computer Science Projects
+		</h2>
+	</div>
+
+	<div class="center-sub-text-container">
+		<div class="center-sub-text">
+			<p>Here are a few of the computer science projects we've been working on. We've
+            spent quite a bit of time trying to really illustrate the process rather than simply
+            provide some code and the output. We hope this illustrates our mentality when it comes to
+            computer science.</p>
+		</div>
+	</div>
+
+	<div class="centered-button" align="left">
+		<a class="button button-primary" style="cursor: default;">Coming soon</a>
+	</div>
+
+	<hr class="divider">
+
+	<div class="container">
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 1.7%; padding: 0%;" align="left">
+        <h2>Computer Science</h2>
+            <p>We're passionate about studying and applying the fundamentals of
+            computer science to our projects. We have a background in programming and
+            computer science, and we've found that exploring the techniques
+            in this discipline does more than just give us some knowledge on how to do
+            certain things - it changes the way we think about problem-solving. </p>
+
+            <p>Computing is a process where you have to think logically - you can't simply
+            expect a computer to understand what you are trying to communicate, and
+            it is essential to plan the process and truly understand and define what it is
+            you're trying to achieve. We enjoy the fact that computer science takes logical thinking,
+            problem solving and adaptability to the extreme. </p>
+
+      </div>
+        <hr class="twelve columns" style="margin-top: 0px;">
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 1%" align="left">
+        <h4>Computer Science Projects</h4>
+            <p>Here are a few of the computer science projects we've been working on. We've
+            spent quite a bit of time trying to really illustrate the process rather than simply
+            provide some code and the output. We hope this illustrates our mentality when it comes to
+            computer science. </p>
+		  <a class="button button-primary" href="javascript:void:(0)">Coming soon</a>
+		  <hr class="twelve columns" style="margin-bottom: 3%; opacity: 0;">
+      </div>
+    </div>
+  </div>
+	</div>-->
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

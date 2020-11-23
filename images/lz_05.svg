@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#6ACCE1;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:none;}
+	.st4{display:inline;fill:#231F20;}
+</style>
+<g id="Layer_2" class="st0">
+	<rect class="st1" width="400" height="400"/>
+</g>
+<g id="Layer_1">
+	<g id="Pointless_Layer">
+	</g>
+	<g id="The_Logo_Itself">
+		<g id="Top_Of_Z">
+			<path class="st2" d="M339.2,49.1l-44.6,68.8H50.2c6.7-39,40.7-68.8,81.6-68.8H339.2 M364.9,35.1H131.9
+				c-53.5,0-96.8,43.3-96.8,96.8l0,0h267.1L364.9,35.1L364.9,35.1z"/>
+		</g>
+		<g id="L">
+			<path class="st2" d="M117.9,163.2v104.9v14h14h217.9c-6.7,39-40.7,68.8-81.6,68.8H49.1V163.2H117.9 M131.9,149.2H35.1v215.7
+				h233.1c53.5,0,96.8-43.3,96.8-96.8l0,0H131.9V149.2L131.9,149.2z"/>
+		</g>
+		<polygon id="Black_Slash" class="st2" points="364.9,35.1 339.1,74.9 177,325.1 151.2,364.9 35.1,364.9 60.8,325.1 223,74.9 
+			248.8,35.1 		"/>
+	</g>
+	<path class="st3" d="M0,0h400v400H0V0z"/>
+	<path id="Home" class="st2" d="M200,91.1l82.1,73.9v128.2h-32.8v-98.5h-98.5v98.5h-32.8V165L200,91.1 M200,47L35.9,194.7h49.2V326
+		h98.5v-98.5h32.8V326h98.5V194.7h49.2L200,47z"/>
+	<polygon class="st3" points="313,365 316,365 316,365 313,365 	"/>
+	<g id="Home_Text" class="st0">
+		<path id="H" class="st4" d="M123.9,285.8v59.4h-13.5v-23.5H90.7v23.5H77.2v-59.4h13.5v23.8h19.6v-23.8H123.9z"/>
+		<path id="O" class="st4" d="M134.1,315.5c0-16.8,13.4-30.4,30.4-30.4c16.7,0,30.3,13.6,30.3,30.4c0,16.8-13.5,30.5-30.3,30.5
+			C147.5,346,134.1,332.3,134.1,315.5z M181.1,315.5c0-9.9-6.8-17.7-16.7-17.7c-10,0-16.6,7.8-16.6,17.7c0,9.9,6.6,17.8,16.6,17.8
+			C174.3,333.2,181.1,325.4,181.1,315.5z"/>
+		<path id="M" class="st4" d="M259.5,345.2l-3.9-33.8l-12.9,27h-10.4l-12.9-26.9l-4,33.7h-13.9l7.3-59.4h11.3l17.3,37.2l17.1-37.2
+			h11.6l7.2,59.4H259.5z"/>
+		<path id="E" class="st4" d="M322.8,333.4v11.8h-38.9v-59.4H322v11.8h-24.6v12.2H319V322h-21.6v11.4H322.8z"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 792 792" style="enable-background:new 0 0 792 792;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:none;fill:#FFFFFF;}
+	.st2{fill:#231F20;}
+	.st3{fill:#13BBF0;}
+</style>
+<g id="Layer_1" class="st0">
+</g>
+<g id="Layer_2">
+	<path class="st1" d="M608.62,791.04H182.42C81.67,791.04,0,709.37,0,608.62V182.42C0,81.67,81.67,0,182.42,0h426.21
+		c100.75,0,182.42,81.67,182.42,182.42v426.21C791.04,709.37,709.37,791.04,608.62,791.04z"/>
+	<path class="st2" d="M717.64,73.38L594.97,262.72H72.41v0c0-104.57,84.77-189.33,189.33-189.33H717.64z"/>
+	<path class="st2" d="M717.64,529.28L717.64,529.28c0,104.57-84.77,189.33-189.33,189.33H72.41V296.64h189.33v232.64H717.64z"/>
+	<polygon class="st3" points="718.59,73.38 668.16,151.22 350.98,640.78 300.55,718.62 73.36,718.62 123.78,640.78 440.97,151.22 
+		491.39,73.38 	"/>
+</g>
+</svg>

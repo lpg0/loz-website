@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132567955-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-132567955-1');
+    </script>
+
+
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Writing | Loz Analytics</title>
+  <meta name="description" content="Loz Analytics">
+  <meta name="author" content="Nate Giraudeau">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/nnb7tcw.css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+	<link rel="stylesheet" href="../css/top_navbar.css">
+	<link rel="stylesheet" href="../css/main_styles.css">
+
+	<script type="text/javascript" src="../js/nav_dropdown.js"></script>
+	<script type="text/javascript" src="../js/fixed_sidebar.js"></script>
+  <script type="text/javascript" src="../js/ripples.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../images/favicon2.png">
+
+</head>
+<body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../js/scripts.js"></script>
+  <script>//document.body.className += 'fade-out';</script>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="navbar" id="navmenu" style="z-index: 10;">
+  		<!-- LOZ logo in top left corner -->
+      <a href="../index.html">
+        <div class="navimgcon">
+          <img class="navbar-image big" src="../images/loz big-01.png">
+
+  <img class="navbar-image small" src="../images/loz laptop-01.png">
+  <img class="navbar-image mobile" src="../images/loz mobile.png">
+        </div>
+  		</a>
+
+  		<div onClick="changeToX(this)" id="mainhmbrgr">
+  			<div class="icon button" id="hambrgr" onClick="openNav()">
+  				<div class="bar1"></div>
+  				<div class="bar2"></div>
+  				<div class="bar3"></div>
+  			</div>
+  		</div>
+
+  		<!-- navigation menu links-->
+  	  <div class="nav-links">
+  		  <a class="button navlink ripple" href="projects.html" id="projects">Projects</a>
+  		  <a class="button navlink ripple" href="dataSci.html" id="science">Data Science</a>
+  		  <a class="button navlink ripple current" href="writing.html" id="writing">Writing</a>
+  		  <a class="button navlink ripple" href="../index.html#p1" id="about">About</a>
+  		  <a class="button navlink blue ripple" href="contact.html" id="contact">Contact Us</a>
+  	  </div>
+
+</div>
+
+	<div class="main-header" id="top-main">
+		<div class="main-heading-container">
+			<h1 class="resize-h1 top-main">The Craft of Writing</h1>
+		</div>
+	</div>
+
+  <div class="fixed-sidenav" align="right" id="fixed-nav">
+
+    <a href="#top-main"><div class="side-link head ripple ripple-light">Writing</div></a>
+
+    <a href="#rp"><div class="side-link ripple">R Programming</div></a>
+    <a href="#stats"><div class="side-link ripple">Statistics</div></a>
+    <a href="#pmodel"><div class="side-link ripple">Prediction Modeling and Machine Learning</div></a>
+    <a href="#intaff"><div class="side-link ripple">International Affairs and History</div></a>
+  </div>
+
+	<div class="center-main-text-container">
+		<div class="center-main-text">
+			<p>Writing makes you think - what do you want to communicate, what
+            point are you trying to make, who are you communicating with? The
+            act of writing hones mastery, and we believe in communicating information
+            that is clear, concise and readable. We provide all of our articles
+            and papers for free, and we aim to provide a distraction-free environment
+            to learn. While there is an abundance of information in textbooks,
+            on the internet and in scientific journals, it can be overwhelming to
+            read complex, complicated documents that are more about the writer's
+            ego than the reader, or navigate websites that are covered with ads
+            and distracting gimmicks. We hope you find our articles fun and easy to
+            read, but most importantly, enlightening. <br><br> There is relatively broad range of topics in the articles below,
+            ranging from business analysis to international relations to academic
+            computer science papers, but all have a common theme; using analytical
+            thinking to understand and improve the world around us. Feel free to
+            read any of the papers, ask questions and let us know if you have any
+            comments or suggestions.</p>
+            <span id="rp"></span>
+		</div>
+	</div>
+
+	<hr class="divider">
+
+
+
+
+	<div class="sub-header">
+		<h2 class="resize-h2">
+			R Programming
+		</h2>
+	</div>
+
+	<div class="center-sub-text-container">
+		<div class="center-sub-text">
+			<p>'R' is a statistical programming language used by many (if
+              not most) data scientists. Learning to interact with 'R' is an
+              essential skill for data science, although if you have never
+              programmed before, the learning curve can be steep. All of these
+              articles treat learning 'R' in a fun and approachable way.</p>
+		</div>
+	</div>
+
+	<div class="centered-button" align="left" id="stats">
+		<div><a target="_blank" class="button button-primary ripple" href="../html/articles/CoWar_Ch1.html">Correlates of War</a></div>
+		<div><a target="_blank" class="button button-primary ripple" href="../html/articles/BioStatsR_Ch_1.html">BioStats with R</a></div>
+	</div>
+
+
+	<hr class="divider">
+
+
+
+	<div class="sub-header">
+		<h2 class="resize-h2">
+			Statistics
+		</h2>
+	</div>
+
+	<div class="center-sub-text-container">
+		<div class="center-sub-text">
+			<p>Statistics is the mathematial foundation for data science - it underlies
+                the entire process, from data collection to accuracy assessment
+                data visualization.  These papers approach statistics in an applicable
+                way, focusing on how statistical methodology can be applied to
+                real-world problems in helpful ways.</p>
+		</div>
+	</div>
+
+	<div class="centered-button" align="left" id="pmodel">
+		<a class="button button-primary ripple comingsoon" style="cursor: default;">Coming soon</a>
+	</div>
+
+	<hr class="divider">
+
+
+
+
+	<div class="sub-header">
+		<h2 class="resize-h2">
+			Prediction Modeling and Machine Learning
+		</h2>
+	</div>
+
+	<div class="center-sub-text-container">
+		<div class="center-sub-text">
+			<p>You're probably heard the buzz around these terms - with the computational
+            power available today, anyone has the ability to quickly and effectively
+            use statistics and machine learning principles to predict and better
+            understand the information that is available. We approach this subject
+            with an enthusiasm of the potential to put them to good use, but they
+            are not magic, and they can only be used effectively on a strong foundation.
+            These papers seek to provide strong insight into the process of building
+            these models, while avoiding sensationalism and over-promises.</p>
+		</div>
+	</div>
+
+	<div class="centered-button" align="left" id="intaff">
+		<a class="button button-primary ripple comingsoon" style="cursor: default;">Coming soon</a>
+	</div>
+
+	<hr class="divider">
+
+
+	<div class="sub-header">
+		<h2 class="resize-h2">
+			International Affairs and History
+		</h2>
+	</div>
+
+	<div class="center-sub-text-container">
+		<div class="center-sub-text">
+			<p>We're passionate about using the tools at our disposal to improve
+            the global environment. After several years working on complex, cross-cultural
+            issues in the military, we've found that the same type of analytical
+            thinking in data and computer science can be applied to international
+            affairs, which along with the discipline of history, has traditionally
+            been driven by instinct and cherry-picked information. We approach the
+            subject by finding accurate data and sound reasoning to improve
+            decision-making within global affairs.</p>
+		</div>
+	</div>
+
+	<div class="centered-button" align="left">
+		<a class="button button-primary ripple comingsoon" style="cursor: default;">Coming soon</a>
+	</div>
+
+
+	<hr class="divider" style="border-color: transparent">
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
